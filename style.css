@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+
+.container{
+    width: 90%;
+    min-height:  calc(100vh - 40px);
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center; 
+}
+
+.img-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    margin-bottom: 20px;
+}
+
+img{
+    
+    height: 100%;
+}
+p{
+    color: white ;
+    text-align: center;
+    font-size: 25px
+}
+
+#input-el{
+    background-color: #444059;
+    border: none;
+    width: 100%;
+    padding: 30px;
+    border-radius: 10px;
+    margin-top: 20px;
+    color: antiquewhite;
+    text-align: center;
+
+}
+
+.sender-recipient{
+    display: flex;
+    width: 100%;
+    gap: 5px;
+    margin-top: 10px;
+    
+    
+
+}
+
+#from-el{
+    width: 50%;
+    background-color: #444059;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+
+#to-el{
+    width: 50%;
+    background-color: #444059;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+}
+
+
+button{
+    margin-top: 10px;
+    background-color: #28A9F1;
+    border: none;
+    color: black;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#endorsement{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+ul{
+    width: 90%;
+}
+
+ul li {
+    color: black;
+    margin-top: 15px;
+    width: 100%;
+    background-color: white;
+    border-radius: 2px ;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sender{
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.message{
+    font-size: 11px;
+}
+
+.recipient{
+    
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 769px) {
+    .container{
+        width: 75%;
+    }
+
+    #endorsement{
+        font-size: 25px;
+    }
+
+    #champion{
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container{
+        width: 60%;
+
+    }
+
+    #endorsement{
+        font-size: 25px;
+    }
+
+    #champion{
+        font-size: 30px;
+    }
+}
